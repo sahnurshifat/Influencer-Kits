@@ -4,13 +4,13 @@
 
 body{
     margin: 30px 120px;
+    font-family: 'Poppins', sans-serif; 
 }
 
 /*----- navbar starts -----*/
 nav {
     display: flex;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
 }
 nav ul{
     display: flex;
@@ -34,3 +34,34 @@ nav ul li a {
 
 }
 /*----- navbar finish -----*/
+
+/*----- offer section -----*/
+.details{
+    display: flex;
+    margin-top: 120px;
+}
+.blog{
+    text-align: justify;
+    height: 270px;
+    width: 582px;
+}
+.blog h1{
+    font-size: 52px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.blog p{
+    color: #3A3A3A;
+    margin-bottom: 40px;
+}
+.blog a{
+    text-decoration: none;
+    color: white;
+    background-color: #0073e6;
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+.camera{
+    padding-left: 80px;
+}
+/*----- offer sec end -----*/
