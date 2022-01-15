@@ -80,3 +80,41 @@ hr{
    align-items: center;
 }
 /*------ brand section finish -----*/
+
+/*------ product kits start ------*/
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    grid-column-gap: 20px;
+}
+.product{
+    background-color:  white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 329px;
+    height: 490px;
+    box-shadow: #d9d9d9 0px 0px 40px;
+}
+.interior{
+    margin-top: 17px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.product .kitspics img{
+    width: 300px;
+    height: 256px;
+}
+.fa-star{
+    font-size: 17px;
+}
+.fa-star.filled{
+    color: #FFC014;
+
+}
+.fa-star-half-alt.empty{
+    color: #FFC014;
+}
+
+/*------ product kits ends -------*/
