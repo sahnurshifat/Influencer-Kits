@@ -63,6 +63,13 @@ nav ul li a {
     padding: 10px 10px;
     border-radius: 25px;
 }
+.blog i{
+    margin-left: 5px;
+}
+.blog a:hover{
+    background-color: #005fbe;
+    color: white;
+}
 .camera{
     padding-left: 80px;
 }
@@ -86,12 +93,21 @@ hr{
 }
 /*------ brand section finish -----*/
 
-/*------ product kits start ------*/
+/*--------------- product kits start ---------------*/
 
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
     grid-column-gap: 20px;
+}
+.sec-title{
+    justify-content: center;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 28px;
+
 }
 .product{
     background-color:  white;
@@ -139,5 +155,120 @@ span, .bottom{
     font-weight: bold;
     font-size: 14px;
 }
+/*------------ downbutton ------------*/
+.downbutton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 15px;
+}
+.downbutton a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 0.8s ease-in-out;
+    border: 1px solid #0073e6; 
+}
+.downbutton i {
+    margin-left: 5px;
+}
+.downbutton a:hover {
+    color:azure;
+    background-color: #0073e6;
+}
+/* -------------downbutton ---------------*/
 
-/*------ product kits ends -------*/
+/*----------------- product kits ends ----------------*/
+
+/*------------- preorder section start-----------*/
+.preorder{
+    display: flex;
+    max-width: 100%;
+}
+.item{
+    width: 40%;
+}
+.information{
+    padding-left: 20px;
+    width: 60%;
+    color: white;
+    background-color: #446fce;
+    border-radius: 10px;
+}
+.item img{
+    height: 400px;
+    width: 420px;
+    border-radius: 10px;
+}
+#top{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+/*------------- preorder section ended-----------*/
+
+/*-- footer --*/
+footer{
+    background-color: #0073e6;
+    width: 100%;
+    height: 239px;
+
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+}
+.copyright{
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    color: #D9DBE1;
+    
+}
+.footer-icon{
+    text-align: center;
+}
+.fa{
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.fa-google {
+    color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+/*-- footer --*/
+
+/*-------------------------------
+   mediaquey for mobile devices 
+-------------------------------*/
+@media only screen and (max-width:668px){
+    
+}
+
+
+/*-------------------------------
+   mediaquey for mobile devices 
+-------------------------------*/
